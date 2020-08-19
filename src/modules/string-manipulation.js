@@ -3,6 +3,6 @@ const capitalize = string => string[0].toUpperCase() + string.split('').slice(1)
 const reverseString = string => string.split('').reverse().join('');
 
 module.exports = {
-  capitalize: capitalize,
-  reverseString: reverseString
-}
+  capitalize,
+  reverseString,
+};

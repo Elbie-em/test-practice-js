@@ -3,7 +3,7 @@ const encode = (char, shift) => {
   let newChar;
 
   if (code >= 97 && code <= 122) {
-    newChar = String.fromCharCode((code - 97 + shift) % 26 + 97);
+    newChar = String.fromCharCode(((code - 97 + shift) % 26) + 97);
   } else {
     newChar = char;
   }
