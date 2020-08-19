@@ -1,40 +1,42 @@
 # Test Practice
 
-> 
-
-![screenshot](./assets/screenshot.png)
+>> This is a project to practice testing cases with jest in javascript.
 
 ## Built With
 
 - Javascript
+- Jest
+- npm
 - ESLint
-- Stylelint
 
-## Usage
+### Setup
 
-- To start the application follow the link given in the live demo.
-- A default project is assigned to you via a auto generated username.
-- Add new projects.
-- Add new todos within those projects you create
+From the command line/terminal clone the repository:
 
-## Live Demo
+```
+$ git clone https://github.com/abdelp/test-practice-js.git
+```
 
-[Live Demo Link]()
+### Usage
 
+Go to the root folder in your terminal and install the node packages:
 
-## Requirements
+```
+npm install
+```
 
-- Compatible Web browser (Chrome, Mozilla, IE, Safari)
+### Usage
 
-## Installation
+Run the tests:
 
-### Prerequisite
+```
+npm run test
+```
 
-### Steps
+To reload the tests after changing the files in real time run:
 
-
-## Deploy
-
+```
+npm run watch
 ```
 
 ## Authors
