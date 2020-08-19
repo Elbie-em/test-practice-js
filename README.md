@@ -1,6 +1,6 @@
 # Test Practice
 
->> This is a project to practice testing cases with jest in javascript.
+> This is a project to practice testing cases with jest in javascript.
 
 ## Built With
 
