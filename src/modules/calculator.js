@@ -5,11 +5,14 @@ const calculator = (() => {
 	const subtract = (a,b) => a - b;
 
 	const multiply = (a,b) => a * b;
+
+	const divide = (a,b) => a / b;
 	
 	return {
 		add,
 		subtract,
-		multiply
+		multiply,
+		divide
 	}
 
 })();
