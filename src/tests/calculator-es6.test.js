@@ -8,4 +8,4 @@ test('calculates the product of two numbers', () => expect(calculator.multiply(6
 
 test('calculates the quotient of two numbers', () => expect(calculator.divide(10, 2)).toBe(5));
 
-test('calculates the quotient of two numbers', () => expect(calculator.divide(10, 0)).toBe(Infinity));
+test('takes Infinity as the division by 0', () => expect(calculator.divide(10, 0)).toBe(Infinity));
