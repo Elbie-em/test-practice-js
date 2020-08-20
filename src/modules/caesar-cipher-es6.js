@@ -19,4 +19,4 @@ const caesarCipher = (string, shift) => {
   return encrypted;
 };
 
-module.exports = caesarCipher;
+export default caesarCipher;
