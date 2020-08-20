@@ -7,3 +7,5 @@ test('calculates the difference of two numbers', () => expect(calculator.subtrac
 test('calculates the product of two numbers', () => expect(calculator.multiply(6, 6)).toBe(36));
 
 test('calculates the quotient of two numbers', () => expect(calculator.divide(10, 2)).toBe(5));
+
+test('calculates the quotient of two numbers', () => expect(calculator.divide(10, 0)).toBe(Infinity));
